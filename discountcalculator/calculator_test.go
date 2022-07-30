@@ -74,7 +74,7 @@ func Test_calculateDiscountRate(t *testing.T) {
 				clientType:    "bronze",
 				purchaseValue: 50,
 			},
-			0.15,
+			0.05,
 		},
 		{
 			"unknown client with purchase value greater equal 501",
